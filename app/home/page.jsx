@@ -1,12 +1,14 @@
 "use client";
 
 import { useState } from "react";
+import GamingMode from "../components/GamingMode";
+import EducationMode from "../components/EducationMode";
 
 export default function Page() {
   const [mode, setMode] = useState("education"); // Default mode
 
   return (
-    <div className="h-screen bg-gray-900 flex flex-col gap-3">
+    <div className="h-screen bg-gray-900 flex flex-col gap-0">
       <div className="flex justify-between items-center p-5">
         {/* Title */}
         <h1 className="text-cyan-400 text-2xl font-normal tracking-widest">
@@ -39,20 +41,4 @@ export default function Page() {
   );
 }
 
-// Gaming Mode Component
-function GamingMode() {
-  return (
-    <div className="flex h-screen gap-4 p-5 pt-0 overflow-hidden">
-      
-    </div>
-  );
-}
 
-// Education Mode Component
-function EducationMode() {
-  return (
-    <div className="h-full p-3 border-0 flex flex-col gap-3 border-cyan-400">
-      
-    </div>
-  );
-}

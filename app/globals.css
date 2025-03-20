@@ -10,3 +10,27 @@
 body {
   background: black;
 }
+
+/* Custom Scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 12px;
+  /* Adjust width */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #2d2d2d;
+  /* Dark track color */
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #ff4d94;
+  /* Pink scrollbar thumb */
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #ff1a75;
+  /* Darker pink on hover */
+}

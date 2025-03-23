@@ -34,3 +34,7 @@ body {
   background: #ff1a75;
   /* Darker pink on hover */
 }
+
+.simulation {
+  font-family: 'Inter', sans-serif;
+}

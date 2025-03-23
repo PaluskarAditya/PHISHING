@@ -5,7 +5,7 @@ import GamingMode from "../components/GamingMode";
 import EducationMode from "../components/EducationMode";
 
 export default function Page() {
-  const [mode, setMode] = useState("education"); // Default mode
+  const [mode, setMode] = useState("gaming"); // Default mode
 
   return (
     <div className="h-screen bg-gray-900 flex flex-col gap-0">
